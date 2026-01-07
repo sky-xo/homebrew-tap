@@ -3,7 +3,7 @@ cask "june" do
   name "june"
   desc "A read-only TUI for viewing Claude Code subagent activity"
   homepage "https://github.com/sky-xo/june"
-  version "0.3.0"
+  version "0.5.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "june" do
   on_macos do
     on_intel do
       url "https://github.com/sky-xo/june/releases/download/v#{version}/june_#{version}_darwin_amd64.tar.gz"
-      sha256 "05795af96c615d543adc933760768d324be61784255d07c8463d99d4bff58a67"
+      sha256 "ec9b891ba0ee71a0effd2e07097f41b133572c8de45fee8ee45604f370b227d7"
     end
     on_arm do
       url "https://github.com/sky-xo/june/releases/download/v#{version}/june_#{version}_darwin_arm64.tar.gz"
-      sha256 "0fa7c93c57f4e3c53c68897ce10b7ee51e3b1dd794a76f6912d345d3d5adbc41"
+      sha256 "7697db4a5cd42e6d6d3438c39bd8e6fe1984a9df245ede198f9f1d4c27f4da63"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/sky-xo/june/releases/download/v#{version}/june_#{version}_linux_amd64.tar.gz"
-      sha256 "ab4dfa17b29c7959d86e85173c9ab4906d1adbd327495e67b33a0f8961c69db7"
+      sha256 "05448bee9d98294045501b2fe80a8c199f1b256c88607f891d48e3a7c427030c"
     end
     on_arm do
       url "https://github.com/sky-xo/june/releases/download/v#{version}/june_#{version}_linux_arm64.tar.gz"
-      sha256 "e1d33c4d60aee60c8ae8d5b0147fa046fefdf42a37aa5e1d634e415121ea32da"
+      sha256 "5a2e1b52baa9ede507d30c2017b9fcc2058e7c35b266b47d54bff41d1126fb34"
     end
   end
 
